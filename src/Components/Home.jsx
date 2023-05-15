@@ -23,7 +23,7 @@ import PropTypes from "prop-types";
 
 import image from "../images/japanese-garden-chimes.jpg"; //alt: hishi-odoshi.jpg or japanese-garden-stones.jpg
 
-const imageAltText = "Japanese garden with stones stacked in a pile";
+const imageAltText = "Japanese garden with a chime in the foreground";
 
 const Home = ({ name, title }) => {
   return (
