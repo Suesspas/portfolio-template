@@ -38,7 +38,7 @@ const projectList = [
   {
     title: "This Portfolio Site",
     description:
-      "Created with github codespaces portfolio template. Uses React.js. for single page application.",
+      "Created with github codespaces portfolio template. Uses React.js. for single page application. Deployed on Azure Static Web Apps.",
     //url: "https://github.com/microsoft/workshop-library/tree/main/full/build-resume-website",
   },
   {
