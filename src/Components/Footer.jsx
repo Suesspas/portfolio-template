@@ -53,6 +53,9 @@ const Footer = (props) => {
         width: "100vw"
       }}
     >
+      <p className="small" style={{ marginTop: 0, color: "white" }}>
+        Contact
+      </p>
       <div
         style={{
           display: "flex",
