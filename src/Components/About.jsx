@@ -24,7 +24,7 @@ const imageAltText = "purple and blue abstract background";
  * Sort description that expands on your title on the Home component.
  */
 const description =
-  "I'm currently studying B.Sc. Internet Computing at the University of Passau. Currently learning more about Cloud Computing and Machine Learning.";
+  "I'm currently studying B.Sc. Internet Computing at the University of Passau. Also learning more about Cloud Computing and Machine Learning.";
 
 /**
  * List of some of skills or technologies you work on, are learning,
@@ -45,7 +45,7 @@ const skillsList = [
  * about you on a professional level.
  */
 const detailOrQuote =
-  "I am excited to learn new technologies, especially when they provide good future prospects. I am a fast learner and always looking for new challenges.";
+"I am always excited to learn new technologies, especially those that hold great potential for the future. ";
 
 const About = () => {
   return (
