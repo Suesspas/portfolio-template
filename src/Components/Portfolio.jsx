@@ -67,7 +67,7 @@ const Portfolio = () => {
             alt={imageAltText}
           />
         </div>
-        <div className="container" style={{ display: "flex", flexWrap: "wrap", padding: "5px"}}>
+        <div className="container" style={{ display: "flex", flexWrap: "wrap", padding: "20px"}}>
           {projectList.map((project) => (
             <div
             className="box"
