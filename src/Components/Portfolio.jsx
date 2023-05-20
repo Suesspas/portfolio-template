@@ -67,11 +67,20 @@ const Portfolio = () => {
             alt={imageAltText}
           />
         </div>
-        <div className="container">
+        <div className="container" style={{ display: "flex", flexWrap: "wrap", padding: "5px"}}>
           {projectList.map((project) => (
-            <div className="box" key={project.title}>
+            <div
+            className="box"
+            key={project.title}
+            style={{
+              flexBasis: "calc(50% - 10px)",
+              maxWidth: "calc(50% - 10px)",
+              padding: "10px",
+              boxSizing: "border-box"
+            }}
+            >
               <a href={project.url} target="_blank" rel="noopener noreferrer">
-                <h3 style={{ flexBasis: "40px" }}>{project.title}</h3>
+                <h3 style={{ flexBasis: "400px" }}>{project.title}</h3>
               </a>
               <p className="small">{project.description}</p>
             </div>
