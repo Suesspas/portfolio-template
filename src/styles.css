@@ -157,3 +157,23 @@ img.socialIcon {
   height: 30px;
   width: 30px;
 }
+
+@media screen and (max-width: 600px) {
+  .skills {
+    font-size: 1rem;
+  }
+  .h3 {
+    font-size: 1rem;
+  }
+  .desk-image{
+    display: none;
+  }
+}
+@media screen and (min-width: 601px) {
+  .skills{
+    font-size: 1.25rem;
+  }
+  .h3 {
+    font-size: 1.25rem;
+  }
+}
