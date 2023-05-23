@@ -96,7 +96,6 @@ h2 {
 
 h3 {
   font-weight: 400;
-  font-size: 1.25rem;
   margin: 0;
 }
 
@@ -159,21 +158,33 @@ img.socialIcon {
 }
 
 @media screen and (max-width: 600px) {
-  .skills {
+  .skills-list {
     font-size: 1rem;
   }
-  .h3 {
+  h3.project-title {
     font-size: 1rem;
   }
   .desk-image{
     display: none;
   }
+  p.large {
+    font-size: 18px;
+  }
+  p.quote{
+    font-size: 1rem;
+  }
+  h1{
+    font-size: 5rem;
+  }
+  h2{
+    font-size: 1.5rem;
+  }
 }
 @media screen and (min-width: 601px) {
-  .skills{
+  .skills-list {
     font-size: 1.25rem;
   }
-  .h3 {
+  h3.project-title {
     font-size: 1.25rem;
   }
 }

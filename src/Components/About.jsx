@@ -64,11 +64,11 @@ const About = () => {
         <p className="large">{description}</p>
         <hr />
         <div
+          className="skills-list"
           style={{
             display: "flex",
             flexWrap: "wrap",
             margin: "2rem 2rem",
-            fontSize: "1.25rem",
             textAlign: "left",
           }}
         >
@@ -86,7 +86,9 @@ const About = () => {
           ))}
         </div>
         <hr />
-        <p style={{ padding: "1rem 3rem 0" }}>{detailOrQuote}</p>
+        <p className="quote" style={{ padding: "1rem 3rem 0" }}>
+          {detailOrQuote}
+        </p>
       </div>
     </section>
   );

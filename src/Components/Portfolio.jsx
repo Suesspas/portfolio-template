@@ -31,7 +31,7 @@ const imageAltText = "desktop with books and laptop";
  */
 const projectList = [
   {
-    title: "Bachelor's Thesis on Neuroevolution",
+    title: "Bachelor's Thesis on Neuro Evolution",
     description:
       "Evolution of neural network that controls game AI. Analysis of simulation data and comparison between multiple neuroevolution algorithms.",
     //url: "https://dev.to/azure/10-things-to-know-about-azure-static-web-apps-3n4i",
@@ -87,7 +87,9 @@ const Portfolio = () => {
               }}
             >
               <a href={project.url} target="_blank" rel="noopener noreferrer">
-                <h3 style={{ flexBasis: "400px" }}>{project.title}</h3>
+                <h3 className="project-title" style={{ flexBasis: "400px" }}>
+                  {project.title}
+                </h3>
               </a>
               <p className="small">{project.description}</p>
             </div>
