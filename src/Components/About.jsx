@@ -51,16 +51,16 @@ const descriptionWithLink = words.map((word, index) =>
  */
 const skillsList = [
   <a key={"bachelorthesis"} href="https://github.com/Suesspas/BachelorThesis">
-    "Neural Networks & Evolutonary Algorithms"
+    Neural Networks & Evolutonary Algorithms
   </a>,
   <a key={"kubernetesappliedskills"} href="https://github.com/Suesspas/BachelorThesis">
-    "Azure & Kubernetes"
+    Azure & Kubernetes
   </a>,
   <a key={"skittleclicker"} href="https://github.com/Suesspas/SkittleClicker">
-    "Game Development in Java (and Python)"
+    Game Development in Java (and Python)
   </a>,
   <a key={"ldbv"} href="https://www.linkedin.com/in/pascal-suess/">
-    "Developing Microservices during work"
+    Developing Microservices during work
   </a>,
 ];
 
@@ -88,7 +88,7 @@ const About = () => {
         <h2>About Myself</h2>
         <p className="large">{descriptionWithLink}</p>
         <hr />
-        <h3>Experiences With</h3>
+        <h3>Experiences With: (clickable)</h3>
         <div
           className="skills-list"
           style={{
